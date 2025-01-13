@@ -10,6 +10,7 @@
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
     box-sizing: border-box;/*Hack para box model*/
     scroll-snap-type: y mandatory;
 }
@@ -20,6 +21,11 @@ body{
     font-family: 'Krub', sans-serif;
     font-size: 16px;
     background-image: linear-gradient(to top,#DFE9F3 0%, var(--blanco)100%);
+}
+.titulovisitado a:visited{
+    text-decoration: none;
+    color: var(--negro);
+    
 }
 .contenedor{
     max-width: 120rem;
@@ -266,3 +272,4 @@ border-radius: .5rem;
 .footer{
     text-align: center;
 }
+
